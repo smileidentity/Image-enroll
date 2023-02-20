@@ -123,7 +123,7 @@ Update the following:
 ### 1. Edit and save `environment variables`
 * Check Partner ID to ensure its the same as yours. 
 * generate an api_key 
-* Access this by clicking the `KUDA Test`  folder and navigate to `variables`. Save once done.
+* Access this by clicking the `Test`  folder and navigate to `variables`. Save once done.
 
 
 ### 2. Check out the `pre-request script` on the post-request
