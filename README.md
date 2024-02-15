@@ -2,7 +2,7 @@
 Repository for readme and postman collection for running custom JT4 job
 
 ---
-To succesfully upload the images, three input fields are required: `photo`, `user_id`, and `user_created_at`. To make requests on the Smile's APIs, 3 authentication parameters are also required: `partner_id`, `signature`, and `timestamp`. [See the docs here](https://docs.smileidentity.com/rest-api/signing-your-api-request/generate-signature) for more details on making requests.
+To succesfully upload the images, three input fields are required: `photo`, `user_id`, and `user_created_at`. To make requests on the Smile's APIs, 3 authentication parameters are also required: `partner_id`, `signature`, and `timestamp`. [See the docs here](https://docs.usesmileid.com/rest-api/signing-your-api-request/generate-signature) for more details on making requests.
 
 
 
@@ -55,7 +55,7 @@ This field is designed to enable advanced fraud detection and protection for all
 
 
 ##### partner_id 
-The partner ID of your organisation. This can be found on the Smile [Partner Portal](https://portal.smileidentity.com).
+The partner ID of your organisation. This can be found on the Smile [Partner Portal](https://portal.usesmileid.com).
  `"partner_id": "172"`  
 
 ##### timestamp
@@ -64,7 +64,7 @@ This is the timestamp for the request in an ISO 8601 date format.
 
 ##### signature
 
-To communicate with our systems we require a signature on each request to ensure that both parties are who they say they are. To calculate your signature, you will need your `partner ID` and `API Key` to calculate the `signature`, both of which are available on the Smile [portal](https://portal.smileidentity.com/api-key). Also refer to the [docs](https://docs.smileidentity.com/rest-api/signing-your-api-request/generate-signature) on generating signature.
+To communicate with our systems we require a signature on each request to ensure that both parties are who they say they are. To calculate your signature, you will need your `partner ID` and `API Key` to calculate the `signature`, both of which are available on the Smile [portal](https://portal.usesmileid.com/api-key). Also refer to the [docs](https://docs.usesmileid.com/rest-api/signing-your-api-request/generate-signature) on generating signature.
 
 `"signature": "6s.....tE="`
 
